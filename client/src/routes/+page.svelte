@@ -13,7 +13,6 @@
     }
     function check_answer(txt_answer) {
         input_time += 1;
-        console.log(txt_answer);
         if (check_word(txt_answer)) {
             result = "YOU WIN";
         } else {
@@ -22,7 +21,6 @@
     }
 
     function key_press(input) {
-        console.log(input);
         textfield += input.key;
         var input_id = input.target.id;
         var id_num = parseInt(
