@@ -1,4 +1,6 @@
 <script>
+    import Header from "./header.svelte";
+
     const BACKSPACE_KEY = 8;
     const ANSWER_WORDS = "japan";
     var textfield = "";
@@ -81,6 +83,7 @@
     }
 </script>
 
+<Header />
 <h1>HangMan Over</h1>
 what is country beautiful on asia?
 <br />
